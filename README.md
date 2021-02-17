@@ -29,7 +29,7 @@ In this sample application we perform the following operations:
     * ANF Account
 
 >Note: The cleanup execution is disabled by default. If you want to run this end to end with the cleanup, please
->change value of boolean variable 'shouldCleanup' in program.cs
+>change value of boolean variable 'CleanupResources' in ANFPoolChange.ps1
 
 If you don't already have a Microsoft Azure subscription, you can get a FREE trial account [here](http://go.microsoft.com/fwlink/?LinkId=330212).
 
@@ -49,7 +49,7 @@ Then it will create a single Volume in the Premium tier Capacity Pool.
 Finally, the sample will perform the pool change operation on the Volume by moving it to the Standard tier Capacity Pool.
 
 There is a section in the code dedicated to remove created resources. By default this sample will not remove all created resources;
-this behavior is controlled by a boolean variable called 'shouldCleanup' in the program.cs class. If you want to erase all resources right after the
+this behavior is controlled by a boolean variable called 'CleanupResources' in the ANFPoolChange.ps1 class. If you want to erase all resources right after the
 creation operations, set this variable to 'true'.
 
 # How the project is structured
@@ -58,9 +58,9 @@ The following table describes all files within this solution:
 
 | Folder      | FileName                | Description                                                                                                                         |
 |-------------|-------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
-| Root        | ANFPoolChange.cs        | Authenticates and executes all operations                                                                                           |
+| Root        | ANFPoolChange.ps1        | Authenticates and executes all operations                                                                                           |
 
-# How to run the console application
+# How to run the script sample application
 
 1. Clone it locally
     ```powershell
