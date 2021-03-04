@@ -12,22 +12,22 @@ description: This project demonstrates how to perform a pool change on a Volume 
 # Azure NetAppFiles Script Sample - Pool Change for PowerShell 
 
 This project demonstrates how to use PowerShell sample application to perform a pool change on a Volume for the Microsoft.NetApp
-resource provider.
+resource provider. 
 
 In this sample application we perform the following operations:
 
 * Creations
-    * ANF Account
+    * Azure NetApp Files Account
     * Primary Capacity Pool in service level Premium
     * Secondary Capacity Pool in service level Standard
     * Volume in the Primary pool
 * Updates
-    * Perform pool change, moving Volume from Primary capacity pool to Secondary capacity pool
+    * Perform pool change, moving Volume from Primary capacity pool to Secondary capacity pool 
 * Deletions
     * Volume
     * Primary Capacity Pool
     * Secondary Capacity Pool
-    * ANF Account
+    * Azure NetApp Files Account 
 
 >Note: The cleanup execution is disabled by default. If you want to run this end to end with the cleanup, please
 >change value of boolean variable 'CleanupResources' in ANFPoolChange.ps1
@@ -59,7 +59,7 @@ The following table describes all files within this solution:
 
 | Folder      | FileName                | Description                                                                                                                         |
 |-------------|-------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
-| Root        | ANFPoolChange.ps1        | Authenticates and executes all operations                                                                                           |
+| Root        | ANFPoolChange.ps1       | Authenticates and executes all operations                                                                                           |
 
 # How to run the script sample application
 
