@@ -2,11 +2,10 @@
 page_type: sample
 languages:
 - powershell
-- azurepowershell
 products:
 - azure
 - azure-netapp-files
-description: This project demonstrates how to perform a pool change on a Volume for Microsoft.NetApp resource provider using PowerShell SDK.
+description: "This project demonstrates how to perform a pool change on a Volume for Microsoft.NetApp resource provider using PowerShell SDK."
 ---
 
 # Azure NetAppFiles Script Sample - Pool Change for PowerShell 
